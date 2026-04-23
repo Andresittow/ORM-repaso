@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Django
+# =========================
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Archivos de migración compilados (no las migraciones .py)
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# IDEs / Editores
+# =========================
+
+# PyCharm / IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# Otros editores
+*.swp
+*.swo
+*~
+
+# =========================
+# Sistema operativo
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Mac
+.DS_Store
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Coverage / testing
+# =========================
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# =========================
+# Distribución / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Otros
+# =========================
+*.bak
+*.orig
